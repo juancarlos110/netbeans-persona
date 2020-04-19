@@ -8,9 +8,9 @@ public class Persona {  //atributos de la clase persona
     
     public Persona() {
         teclado=new Scanner(System.in);
-        System.out.print("Ingrese nombre de la persona:");
+        System.out.print("Digite el nombre completode la persona:");
         nombre=teclado.next();
-        System.out.print("Ingrese edad:");
+        System.out.print("Por favor ingresela edad edad:");
         edad=teclado.nextInt();
     }
     
