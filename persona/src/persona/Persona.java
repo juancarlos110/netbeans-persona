@@ -8,9 +8,9 @@ public class Persona {  //atributos de la clase persona
     
     public Persona() {
         teclado=new Scanner(System.in);
-        System.out.print("Digite el nombre completode la persona:");
+        System.out.print("Digite el nombre completo de la persona:");
         nombre=teclado.next();
-        System.out.print("Por favor ingresela edad edad:");
+        System.out.print("Por favor ingrese la edad:");
         edad=teclado.nextInt();
     }
     
@@ -21,9 +21,9 @@ public class Persona {  //atributos de la clase persona
     
     public void esMayorEdad() {  // con el ciclo si le pongo la condicion
         if (edad>=18) {
-            System.out.print(nombre+" es mayor de edad.");
+            System.out.print(nombre+" La persona es mayor de edad.");
         } else {
-            System.out.print(nombre+" no es mayor de edad.");
+            System.out.print(nombre+" La persona no es mayor de edad.");
         }
     }
     
